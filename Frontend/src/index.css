@@ -1,0 +1,17 @@
+:root{
+  background:
+    linear-gradient(
+        180deg,
+        #181818,
+        #303030
+    );
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    padding-right: 1%;
+    padding-left: 1%;
+    height: 100%;
+}

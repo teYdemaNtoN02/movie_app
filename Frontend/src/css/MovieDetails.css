@@ -1,0 +1,27 @@
+.MovieDetails{
+    color: white;
+}
+
+.MovieInformation{
+    background-color: rgb(45, 45, 45);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+}
+
+.MoviePoster{
+    font-size: 18px;
+    text-align: center;
+}
+
+.MovieData{
+    font-size: 16px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.MovieData p{
+    padding: 10px;
+}

@@ -1,0 +1,50 @@
+.Header {
+    height: 70px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 30px;
+
+    background-color: #111;
+    border-bottom: 1px solid #333;
+    color: white;
+
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.Header a:hover {
+    color: #e50914;
+}
+
+.Logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.Logo:hover {
+    color: #e50914;
+}
+
+.Nav {
+    display: flex;
+    gap: 25px;
+}
+
+.Nav a {
+    color: white;
+    text-decoration: none;
+
+    font-size: 18px;
+
+    transition: 0.2s;
+}
+
+.Nav a:hover {
+    color: #ff4757;
+}
